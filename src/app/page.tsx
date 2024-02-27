@@ -1,5 +1,6 @@
 
 import React from "react";
+import TodoList from "@/app/TodoList";
 export default function Home() {
   return (
       <main className="float-left">
@@ -19,5 +20,15 @@ export default function Home() {
           </div>
       </div>
       </main>
+
   );
+}
+
+const Page: React.FC = () => {
+    return (
+        <div>
+            <h1>Welcome to My Todo List</h1>
+            <TodoList />
+        </div>
+    );
 }
