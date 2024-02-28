@@ -19,16 +19,13 @@ export default function Home() {
               </div>
           </div>
       </div>
+          <div>
+              <br/>
+              <br/>
+              <TodoList />
+          </div>
       </main>
 
   );
 }
 
-const Page: React.FC = () => {
-    return (
-        <div>
-            <h1>Welcome to My Todo List</h1>
-            <TodoList />
-        </div>
-    );
-}
