@@ -1,3 +1,4 @@
+import React from "react";
 
 const { PrismaClient } = require('@prisma/client');
 
@@ -16,8 +17,8 @@ export default async function VypisUzivatelu(){
             <br></br>
             <div>
                 {
-                    users.map((user)=><Card title ={user.name} description={user.email} checked={true}/>
-                )
+                    // eslint-disable-next-line react/jsx-key
+                    users.map((user: { name: string; email: string; })=><Card title={user.name} description={user.email} checked={true}></Card>)
                 }
             </div>
         </main>
@@ -33,7 +34,7 @@ function Card ({title, description, checked}:TodoItemProps){
 }
 
 class TodoItemProps{
-    title: string;
-    description: string;
-    checked: boolean;
+    title:string | undefined;
+    description: string | undefined;
+    checked:boolean | undefined;
 }
