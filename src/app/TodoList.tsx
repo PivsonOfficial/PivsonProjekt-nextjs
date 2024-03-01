@@ -41,13 +41,14 @@ const TodoList: React.FC = () => {
 
     return (
         <div>
+            <br></br>
             <h1>To-Do List</h1>
 
             <p> <input className="text-black"
                 type="text"
                 value={inputText}
                 onChange={handleInputChange}
-            /> <button onClick={addTodo}>Add Todo</button> </p>
+            /> <button className="mt-6 bg-indigo-500 hover:bg-indigo-600 text-white font-bold py-1 px-2 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-100"  onClick={addTodo}>Add Todo</button> </p>
 
             <ul>
                 {todos.map(todo => (
