@@ -22,7 +22,7 @@ async function getData() {
 const Home = async () => {
   const data = await getData();
   return (
-    <div className="w-screen py-20 flex justify-center flex-col items-center">
+    <div className="w-screen flex justify-center flex-col items-center bg-black h-[1000px] pb-80">
       <h1 className=" text-3xl font-extrabold uppercase mb-5">
         <span className="text-green-600 ml-2">
           Pivson Vydra Todo list
@@ -31,7 +31,7 @@ const Home = async () => {
 
       <div className="flex justify-center flex-col items-center w-[1000px] ">
         <AddTodo />
-        <div className=" flex flex-col gap-5 items-center justify-center mt-10 w-full">
+        <div className=" flex flex-col gap-6 items-center justify-center mt-10 w-full ">
           {data.map((todo, id) => (
             <div className="w-full" key={id}>
               <Todo todo={todo} />
