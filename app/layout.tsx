@@ -3,7 +3,6 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import localFont from '@next/font/local';
 import "./globals.css";
 
-
 const SixtyFour = localFont({
     src: [
         {

@@ -1,7 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-
 import AddTodo from "@/components/shared/AddTodo";
-
 import Todo from "@/components/shared/Todo";
 
 const prisma = new PrismaClient();
@@ -28,7 +26,6 @@ const Home = async () => {
           Pivson Vydra Todo list
         </span>
       </h1>
-
       <div className="flex justify-center flex-col items-center w-[1000px] ">
         <AddTodo />
         <div className=" flex flex-col gap-6 items-center justify-center mt-10 w-full ">
