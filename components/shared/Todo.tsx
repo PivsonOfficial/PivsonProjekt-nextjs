@@ -9,10 +9,9 @@ const Todo = ({ todo }: { todo: todoType }) => {
       todo.isCompleted === true ? "line-through" : "none",
     opacity: todo.isCompleted === true ? 0.5 : 1,
   };
-
   return (
     <div
-      className="w-full  flex items-center justify-between bg-white py-3 px-20 rounded-2xl"
+      className="w-full  flex items-center justify-between bg-black text-white py-4 px-20 rounded-2xl"
       style={todoStyle}
     >
       <ChangeTodo todo={todo} />
