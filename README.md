@@ -17,9 +17,6 @@ Dokumentace:
 
 3.S čím jsem měl problém?: Největší problém mi dělala responzivita, kterou nemám bohužel úplnou.
 
-4.Používaná technologie: React Node.js Bootstrap library Framer Motion Type Animation Vercel
+4.Používaná technologie: React Node.js Bootstrap library Framer Motion Type Animation Vercel Three Fiber
 
-5.Závěr Musím říct že v reactu jsem se naučil co se týče dělání webu za celou dobu školy asi nejvíce, ovšem já osobně preferuji Wordpress Jenom mě mrzí to, že jsem doufal, že mě bude vytváření stránek díky reactu bavit, bohužel to se nestalo. Nebaví mě to od prváku a tak to asi zůstane :/.
-
-Figma: Pro návrh mého portfolia jsem použil figmu a pokusil jsem se co nejvíce dodržet design, ovšem jelikož jsem to bral jakožto skicu webu tak jsem udělal hodně úprav, které si myslím, že alespoŇ trošku web oživily.
 
